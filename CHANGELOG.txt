@@ -1,0 +1,21 @@
+- 1.0 
+Initial Release
+- 1.1
+-Updated constant lists to be capitalized
+-Added more plant parts and plants
+-seperated creatures into bugs and creatures, removed creature parts, and added more variety to each
+-Added associated descriptors for bugs and creatures
+-Clarfied shards as rock or crystal
+-removed sand and dust options any extra associated logic with it
+-Gave scents a a/an check
+-Removed reflection
+-Added logic to check that a color descriptor was not repeated in a second sentence
+-Made it so only one texture would be selected, rather than randomly 1, 2, or 3. 
+-Added more lists for the start of the second sentence to be more random. 
+-Added a third sentence option to sentence 1 and 2, added any logic to help it flow. 
+-Added logic to make comparisons match more closely to weight or size, seperating into two different lists
+-Clarified small comparable objects to be just for bugs. 
+-Added logic to make plants parts be from a plant
+-Fixed standout phrases to account for plural objects. 
+
+
