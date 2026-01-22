@@ -1,5 +1,6 @@
 - 1.0 
 Initial Release
+
 - 1.1
 -Updated constant lists to be capitalized
 -Added more plant parts and plants
@@ -17,5 +18,17 @@ Initial Release
 -Clarified small comparable objects to be just for bugs. 
 -Added logic to make plants parts be from a plant
 -Fixed standout phrases to account for plural objects. 
+
+-1.2
+-Updated swamp biome weights to correctly 1.0
+-Changed sentence generator to have two possible choices, functions, based on previously made sentences or more premade ones. 
+-Added logic to output the "premade" sentences
+-Added more lists of words to match new sentences
+-Made all creature randomized sentences always singular
+-Modified descriptor funtion to make certain "glows/sheens" more interesting and singular.
+-Descriptor function also differenates "patterns" and "glows" seperately 
+-Updated several lists to be dictionaries with related informaiton more closely connected
+-Updated logic to account for creatures types being in certain biomes. 
+-
 
 
