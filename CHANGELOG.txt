@@ -20,15 +20,26 @@ Initial Release
 -Fixed standout phrases to account for plural objects. 
 
 -1.2
--Updated swamp biome weights to correctly 1.0
--Changed sentence generator to have two possible choices, functions, based on previously made sentences or more premade ones. 
--Added logic to output the "premade" sentences
+-Updated swamp biome weights to correctly equal 1.0
+-Changed sentence generator to have two possible choices using functions create sentence of either pre 1.2 sentences or more premade ones.
+-Added funtion to decde which sentence to pick, 30% for pre 1.2 sentences.  
+-Added required logic to output the new sentences
 -Added more lists of words to match new sentences
--Made all creature randomized sentences always singular
+-Made all creature in pre 1.2 sentences to always be singular
 -Modified descriptor funtion to make certain "glows/sheens" more interesting and singular.
 -Descriptor function also differenates "patterns" and "glows" seperately 
 -Updated several lists to be dictionaries with related informaiton more closely connected
+-Corrected varriables and syntax based on new dictionaries
 -Updated logic to account for creatures types being in certain biomes. 
--
 
-
+-1.3
+-Fixed "bark" to "strips of bark," and fixed mass nouns to fit better in associated sentences. 
+-Altered number range to be an addition of the first number rather than just a number simply bigger. 
+-Corrected some inccorect variables in the new sentences
+-Altered logic of creature 1.2 sentences to more correctly pull texture info from the intial dictionary created. 
+-Removed some fancy colors that confused
+-Removed some other confusing options from adj. lists
+-Some grammar fixes in new 1.2 sentences. 
+-Modified Chances for sentence choice to depend on object type
+-Added more sentences to the premade sentence lists
+-inserted a printing of current biome choosen
