@@ -4,9 +4,9 @@ Initial Release
 - 1.1
 -Updated constant lists to be capitalized
 -Added more plant parts and plants
--seperated creatures into bugs and creatures, removed creature parts, and added more variety to each
+-separated creatures into bugs and creatures, removed creature parts, and added more variety to each
 -Added associated descriptors for bugs and creatures
--Clarfied shards as rock or crystal
+-Clarified shards as rock or crystal
 -removed sand and dust options any extra associated logic with it
 -Gave scents a a/an check
 -Removed reflection
@@ -14,7 +14,7 @@ Initial Release
 -Made it so only one texture would be selected, rather than randomly 1, 2, or 3. 
 -Added more lists for the start of the second sentence to be more random. 
 -Added a third sentence option to sentence 1 and 2, added any logic to help it flow. 
--Added logic to make comparisons match more closely to weight or size, seperating into two different lists
+-Added logic to make comparisons match more closely to weight or size, separating into two different lists
 -Clarified small comparable objects to be just for bugs. 
 -Added logic to make plants parts be from a plant
 -Fixed standout phrases to account for plural objects. 
@@ -22,24 +22,46 @@ Initial Release
 -1.2
 -Updated swamp biome weights to correctly equal 1.0
 -Changed sentence generator to have two possible choices using functions create sentence of either pre 1.2 sentences or more premade ones.
--Added funtion to decde which sentence to pick, 30% for pre 1.2 sentences.  
+-Added function to decide which sentence to pick, 30% for pre 1.2 sentences.  
 -Added required logic to output the new sentences
 -Added more lists of words to match new sentences
 -Made all creature in pre 1.2 sentences to always be singular
--Modified descriptor funtion to make certain "glows/sheens" more interesting and singular.
--Descriptor function also differenates "patterns" and "glows" seperately 
--Updated several lists to be dictionaries with related informaiton more closely connected
--Corrected varriables and syntax based on new dictionaries
+-Modified descriptor function to make certain "glows/sheens" more interesting and singular.
+-Descriptor function also differentiates "patterns" and "glows" separately 
+-Updated several lists to be dictionaries with related information more closely connected
+-Corrected variables and syntax based on new dictionaries
 -Updated logic to account for creatures types being in certain biomes. 
 
 -1.3
 -Fixed "bark" to "strips of bark," and fixed mass nouns to fit better in associated sentences. 
 -Altered number range to be an addition of the first number rather than just a number simply bigger. 
--Corrected some inccorect variables in the new sentences
--Altered logic of creature 1.2 sentences to more correctly pull texture info from the intial dictionary created. 
+-Corrected some incorrect variables in the new sentences
+-Altered logic of creature 1.2 sentences to more correctly pull texture info from the initial dictionary created. 
 -Removed some fancy colors that confused
 -Removed some other confusing options from adj. lists
 -Some grammar fixes in new 1.2 sentences. 
 -Modified Chances for sentence choice to depend on object type
 -Added more sentences to the premade sentence lists
--inserted a printing of current biome choosen
+-inserted a printing of current biome chosen
+
+-1.4
+-Fixed some spelling in the changelog
+-Moved biome choice to main function, so it can this later can more easily be integrated with main app and user choice. Associated dictionary moved to constants. 
+-Fixed 1.2 sentences to have either a size descriptor or a more specific in/ft size, not both. 
+-Removed locals beliefs about some animals. 
+-Removed situations of "of color" to avoid grammar issues like "splotches of whitish". 
+-Fixed one reptile sentence for size to be in inches and not feet. 
+-Cut down on fantastical objects a bug could possibly mimic as. 
+-Added a body modifier to a fish sentence to fix a A/an problem with the creatures. 
+-Removed the "quite" since quite modestly sized didn't make sense. 
+-Made geodes singular
+-Cut out most glows or luminosity for being too fantastical. Added sheen to only minerals
+-Made mammals only be neutral colors to cut down on fantastical colored furs. 
+-Modified pre 1.2 sentences to not hardcode texture for ores and creatures
+-Simplified contradiction check of descriptor creator
+-Modified pre 1.2 sentence function to be more concise 
+-Removed pre 1.2 sentence that created too little detail and added more detail to others. 
+-Made pre 1.2 sentences to follow a more predetermined description pattern. 
+-Added logic for plant and associated sentences to be based on wet/dry or either biomes.
+-Added some more variety in plant sentences in post 1.2 sentence choices
+
