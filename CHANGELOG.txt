@@ -46,7 +46,7 @@ Initial Release
 
 -1.4
 -Fixed some spelling in the changelog
--Moved biome choice to main function, so it can this later can more easily be integrated with main app and user choice. Associated dictionary moved to constants. 
+-Moved biome choice to main function, so this later can more easily be integrated with main app and user choice. Associated dictionary moved to constants. 
 -Fixed 1.2 sentences to have either a size descriptor or a more specific in/ft size, not both. 
 -Removed locals beliefs about some animals. 
 -Removed situations of "of color" to avoid grammar issues like "splotches of whitish". 
@@ -57,7 +57,7 @@ Initial Release
 -Made geodes singular
 -Cut out most glows or luminosity for being too fantastical. Added sheen to only minerals
 -Made mammals only be neutral colors to cut down on fantastical colored furs. 
--Modified pre 1.2 sentences to not hardcode texture for ores and creatures
+-Modified pre 1.2 sentences to not hardcode "texture" for ores and creatures
 -Simplified contradiction check of descriptor creator
 -Modified pre 1.2 sentence function to be more concise 
 -Removed pre 1.2 sentence that created too little detail and added more detail to others. 
