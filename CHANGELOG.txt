@@ -65,3 +65,20 @@ Initial Release
 -Added logic for plant and associated sentences to be based on wet/dry or either biomes.
 -Added some more variety in plant sentences in post 1.2 sentence choices
 
+-1.5
+-Cleaned up some of the comparison words to be less strange, no more dense animals. 
+-Made comparison objects in pre 1.2 sentences smaller on average
+-Removed pre 1.2 comparisons for animals
+-Made the pre 1.2 second sentence code more clear
+-Made the mimic bug an insect, rather than any type of bug.
+-Made some animal activity have more variety in one sentence. 
+-"Strong scents" removed to simplify grammar
+-Separated shapes into organic and inorganic shapes. 
+-Added some variety to bird calls in one sentence. 
+-Made ocean plants only be wet, removing possibility of other plant types.
+-Added some more sentences choices to the post 1.2 sentences. 
+-Mammals have been removed from freshwater biomes, they don't drink water anymore it seems.
+-Reformatted code using Black formatting. 
+
+
+
