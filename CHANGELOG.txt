@@ -80,5 +80,14 @@ Initial Release
 -Mammals have been removed from freshwater biomes, they don't drink water anymore it seems.
 -Reformatted code using Black formatting. 
 
-
-
+-1.6
+-Lowered possible number of colors in pre 1.2 sentences from 3 to 2.
+-Altered "Resembles a {color} {bug}..." sentence to clarify at the start "A bug that resembles..."
+-All pregen sentences that have a singular object were modified to include an article. 
+-Removed grainy from possible textures, because sand is assumed to always be grainy
+-Added a missing period to a pregen bird sentence
+-Fixed pregen sentence about reptile's frill to be "so many inches around" rather than "inches long"
+-Altered comparison sentences in pre 1.2 sentences to not counter weight with size, and viceversa, but rather to qualify it in some other way if at all. 
+-Added weights to each of the newer pregened sentences
+-Added small function to choose a sentence from the pregen sentences based on the weights. 
+-Made skill check effect which type of sentence will show up, where higher gets more detailed sentences, and lower more likely to get less detailed sentences.
