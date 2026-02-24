@@ -91,3 +91,8 @@ Initial Release
 -Added weights to each of the newer pregened sentences
 -Added small function to choose a sentence from the pregen sentences based on the weights. 
 -Made skill check effect which type of sentence will show up, where higher gets more detailed sentences, and lower more likely to get less detailed sentences.
+
+-1.6.1
+-Added title and version number to top
+-Fixed Sand sentence texture to be more logical, and so added grainy back into mineral textures.
+-Altered pre 1.2 sentence about bugs comparisons that compare by "shape" now to "size."

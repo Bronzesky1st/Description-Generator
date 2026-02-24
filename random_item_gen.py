@@ -1,3 +1,8 @@
+'''
+Random Item Gen
+Verison 1.6.1
+'''
+
 import random
 import inflect
 
@@ -129,6 +134,7 @@ CREATURES = {
 MINERALS = {
     "objects": ["stone", "rock shard", "ore chunk", "mineral"],
     "textures": [
+        "grainy"
         "jagged",
         "chalky",
         "smooth",
@@ -434,7 +440,7 @@ def generate_premade_sentence(descriptor_dict, object_type):
             [1, f"A mix of {color1} and {color2} sand which begins to glow {basicolor} in the proximity of {random.choice(["moonlight", "sunlight", "fire", "water", "heat", "cold", "salt", "iron"])}."],
             [5, f"{color1.capitalize()} {pattern2} metal which forms into {shape1} shapes. {weight.capitalize()} than expected."],
             [2, f"{color1.capitalize()} crystal shards with {color2} {pattern} running through them. They emit {basicolor} sparks when struck together."],
-            [3, f"Magnetic {color1} sand that clumps together when disturbed. The clumps have a {texture} texture and {basicolor} sheen."],
+            [3, f"Magnetic {color1} sand that clumps together when disturbed. The clumps have a {random.choice(["smooth", "rough"])} texture and {basicolor} sheen."],
             [4, f"A geode with a {shape2} shape and rough {color1} exterior. When cracked open, the interior reveals {basicolor} crystalline formations."],
             [7, f"{color1.capitalize()} stones with natural {shape1}-shaped faces. The surface is {texture} and shows {color2} veining along the edges."],
         ]
@@ -608,7 +614,7 @@ def generate_random_sentence(descriptor_dict, object_type):
         ]
 
         if thing in CREATURES["BUGS"]["creatures"]:
-            comparison = "shape"
+            comparison = "size"
             common_object = random.choice(BUG_OBJECTS)
             modifier = random.choice(["sturdier", "more fragile", "more delicate"])
             comparison_endings = [f" and {modifier} than it appears"] 
